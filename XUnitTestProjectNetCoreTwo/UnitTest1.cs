@@ -13,7 +13,7 @@ namespace Tests
     {
       HttpClient httpClient = new HttpClient
       {
-        BaseAddress = new Uri(" http://localhost:5000/")
+        BaseAddress = new Uri("http://localhost:5000/")
       };
 
       var response = await httpClient.GetAsync("api/values");
